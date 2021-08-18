@@ -14,13 +14,15 @@ We propose to equip attention mechanism with causal inference, which is a powerf
 Notice: All the models are implemented based on [RecBole](https://github.com/RUCAIBox/RecBole), a popular open-source recommendation framework. 
 
 ## Datasets
-We use three real-world benchmark datasets, including *MovieLens-100K*, *Amazon-Electronics* and *Book-Crossing*. 
-
-## Parameter Settings
+We use three real-world benchmark datasets, including *MovieLens-100K*, *Amazon-Electronics* and *Book-Crossing*. All the datasets are available at this [link](https://recbole.io/dataset_list.html).
 
 ## Results
 
 ## Usage
+### Download the code and dataset
+### Run
+
+### Parameter Settings
 
 ## Acknowledgement
 Any scientific publications that use our codes and datasets should cite the following paper as the reference:
