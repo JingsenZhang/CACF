@@ -15,6 +15,21 @@ We propose to equip attention mechanism with causal inference, which is a powerf
 Notice: All the models are implemented based on [RecBole](https://github.com/RUCAIBox/RecBole), a popular open-source recommendation framework. 
 
 ## Datasets
+
 ## Parameter Settings
+
 ## Usage
+
 ## Acknowledgement
+Any scientific publications that use our codes and datasets should cite the following paper as the reference:
+````
+@inproceedings{Jingsen-CIKM-2021,
+    title = "Causally Attentive Collaborative Filtering",
+    author = {Jingsen Zhang and
+              Xu Chen and
+              Wayne Xin Zhao},
+    booktitle = {{CIKM}},
+    year = {2021},
+}
+````
+If you have any questions for our paper or codes, please send an email to zhangjingsen@ruc.edu.cn.
