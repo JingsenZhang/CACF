@@ -24,9 +24,15 @@ Run run_cacf.py
 ```
 python run_cacf.py --model=CACF --dataset=ml-100k --config_files='cacf.yaml ml-100k.yaml'
 ```
+Parameters meanings:
+```
+--model         model name: CACF, Pop, BPR, FM, WideDeep, AFM, DeepFM 
+--dataset       dataset name: ml-100k, amazon_electronics, book_crossing
+--config_files  the configuration files for model and dataset
+```
 
 #### Parameter Settings
-The search ranges for part of the parameters are shown below. You can configure some training parameters through the command line.
+The search ranges of some parameters are shown below. You can configure training parameters through the command line.
 ```
 --learning_rate    [0.05, 0.01, 0.005, 0.001]
 --embedding_size   [10, 16, 32, 64]
