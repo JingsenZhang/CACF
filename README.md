@@ -17,15 +17,15 @@ Notice: All the models are implemented based on [RecBole](https://github.com/RUC
 We use three real-world benchmark datasets, including *MovieLens-100K*, *Amazon-Electronics* and *Book-Crossing*. All the datasets are available at this [link](https://recbole.io/dataset_list.html).
 
 ## Usage
-### Download the codes and datasets
-### Run
+#### Download the codes and datasets
+#### Run
 Run run_cacf.py
 
 ```
 python run_cacf.py --model=CACF --dataset=ml-100k --config_files='cacf.yaml ml-100k.yaml'
 ```
 
-### Parameter Settings
+#### Parameter Settings
 The search ranges for part of the parameters are shown below. You can configure some training parameters through the command line.
 ```
 --learning_rate    [0.05, 0.01, 0.005, 0.001]
