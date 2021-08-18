@@ -25,7 +25,7 @@ Run run_cacf.py
 ```
 python run_cacf.py --model=CACF --dataset=ml-100k --config_files='cacf.yaml ml-100k.yaml'
 ```
-The meanings of parameters
+The meanings of parameters:
 ```
 --model         model name: CACF, Pop, BPR, FM, WideDeep, AFM, DeepFM 
 --dataset       dataset name: ml-100k, amazon_electronics, book_crossing
