@@ -16,13 +16,27 @@ Notice: All the models are implemented based on [RecBole](https://github.com/RUC
 ## Datasets
 We use three real-world benchmark datasets, including *MovieLens-100K*, *Amazon-Electronics* and *Book-Crossing*. All the datasets are available at this [link](https://recbole.io/dataset_list.html).
 
-## Results
-
 ## Usage
-### Download the code and dataset
+### Download the codes and datasets
 ### Run
+Run run_cacf.py
+
+```
+python run_cacf.py --model=CACF --dataset=ml-100k --config_files='cacf.yaml ml-100k.yaml'
+```
 
 ### Parameter Settings
+The search ranges for part of the parameters are shown below. You can configure some training parameters through the command line.
+```
+--learning_rate    [0.05, 0.01, 0.005, 0.001]
+--embedding_size   [10, 16, 32, 64]
+--train_batch_size [256, 512, 1024, 2048]
+--mlp_hidden_size  [[32, 16, 8], [64, 32, 16], [128, 64, 32]]
+--dropout_prob     [0.0, 0.05, 0.1, 0.2, 0.5]
+--t                [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+--loss_weight1     [0.1, 0.5, 0.9]
+--loss_weight2     [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+```
 
 ## Acknowledgement
 Any scientific publications that use our codes and datasets should cite the following paper as the reference:
