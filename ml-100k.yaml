@@ -1,0 +1,41 @@
+# dataset config
+field_separator: "\t"
+seq_separator: " "
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+RATING_FIELD: rating
+TIME_FIELD: timestamp
+NEG_PREFIX: neg_
+threshold: ~
+load_col:
+    inter: [user_id, item_id]
+    user: [user_id]
+    item: [item_id, release_year, class]
+# Filtering
+rm_dup_inter: ~
+lowest_val: ~
+highest_val: ~
+equal_val: ~
+not_equal_val: ~
+filter_inter_by_user_or_item: True
+max_user_inter_num: ~
+min_user_inter_num: ~
+max_item_inter_num: ~
+min_item_inter_num: ~
+# Preprocessing
+fields_in_same_space: ~
+preload_weight: ~
+normalize_field: ~
+normalize_all: True
+
+# evalution settings
+eval_setting: RO_LS,full
+group_by_user: True
+#split_ratio: [0.8,0.1,0.1]
+leave_one_num: 2
+metrics: ["NDCG","MRR","MAP","hit","Recall","Precision"]
+topk: 5
+valid_metric: NDCG@5
+eval_batch_size: 4096
+loss_decimal_place: 4
+metric_decimal_place: 4
