@@ -5,7 +5,7 @@ This is the Pytorch implementation for our CIKM 2021 short paper:
 ## Overview
 We propose to equip attention mechanism with causal inference, which is a powerful tool to identify the real causal effects. Our model is based on the potential outcome framework. In specific, the real causal relation of each feature on the outcome is measured by the individual treatment effect (ITE) and we minimize the distance between the traditional attention weights and the normalized ITE. With such causal regularization, the learned attention weights can reflect the real causal effects.
 
-<img src="https://github.com/JingsenZhang/CACF/blob/master/model.png" width = "500px" align=center />
+<img src="https://github.com/JingsenZhang/CACF/blob/master/img/model.png" width = "500px" align=center />
 
 ## Requirements
 - Python 3.7
