@@ -23,7 +23,7 @@ Notice: All the models are implemented based on [RecBole](https://github.com/RUC
 ## Acknowledgement
 Any scientific publications that use our codes and datasets should cite the following paper as the reference:
 ````
-@inproceedings{Jingsen-CIKM-2021,
+@inproceedings{Zhang-CIKM-2021,
     title = "Causally Attentive Collaborative Filtering",
     author = {Jingsen Zhang and
               Xu Chen and
