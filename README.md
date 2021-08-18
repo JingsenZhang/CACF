@@ -9,14 +9,16 @@ We propose to equip attention mechanism with causal inference, which is a powerf
 
 ## Requirements
 - Python 3.7
-- Pytorch 1.7.1
-- CUDA 11.0
+- Pytorch >=1.3
 
 Notice: All the models are implemented based on [RecBole](https://github.com/RUCAIBox/RecBole), a popular open-source recommendation framework. 
 
 ## Datasets
+We use three real-world benchmark datasets, including *MovieLens-100K*, *Amazon-Electronics* and *Book-Crossing*. 
 
 ## Parameter Settings
+
+## Results
 
 ## Usage
 
